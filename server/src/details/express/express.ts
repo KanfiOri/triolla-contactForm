@@ -1,9 +1,9 @@
 import bodyParser from "body-parser";
 import cors from "cors";
 import express, { Application, Router } from "express";
-import { iDataProvider } from "logic/interfaces/dataProvider";
-import { appConfig } from "config/appConfig";
-import { ServerLogger } from "logger/logger";
+import { iDataProvider } from "../../logic/interfaces/dataProvider";
+import { appConfig } from "../../config/appConfig";
+import { ServerLogger } from "../../logger/logger";
 import { createContactFormRoutes } from "./routes/contactFormRoutes";
 
 export const expressInit = (dataProvider: iDataProvider) => {

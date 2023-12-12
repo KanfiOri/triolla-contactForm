@@ -1,8 +1,8 @@
-import { iDataProvider } from "logic/interfaces/dataProvider";
+import { iDataProvider } from "../../../logic/interfaces/dataProvider";
 import { createRoute } from "../expressUtils";
-import { contactForm } from "entities/entites";
-import { contactFormLogic } from "logic/entityLogic/contactFormLogic";
-import { makeNetworkCreateResult } from "entities/networkEntites";
+import { contactForm } from "../../../entities/entites";
+import { contactFormLogic } from "../../../logic/entityLogic/contactFormLogic";
+import { makeNetworkCreateResult } from "../../../entities/networkEntites";
 
 export const createContactFormRoutes = (router: any, dataProvider: iDataProvider) => {
     createRoute(router, {

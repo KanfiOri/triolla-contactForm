@@ -1,6 +1,6 @@
-import { transaction } from "db/mongo/dbUtils";
-import { contactForm } from "entities/entites";
-import { iFormDataProvider } from "logic/interfaces/dataProvider";
+import { transaction } from "../../../db/mongo/dbUtils";
+import { contactForm } from "../../../entities/entites";
+import { iFormDataProvider } from "../../../logic/interfaces/dataProvider";
 import { Collection, MongoClient, ObjectId } from "mongodb";
 
 export const createTaskDataProvider = (client: MongoClient): iFormDataProvider => {

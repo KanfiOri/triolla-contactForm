@@ -1,4 +1,4 @@
-import { contactForm } from "entities/entites"
+import { contactForm } from "../../entities/entites"
 
 export interface iDataProvider {
     FormDataProvider: iFormDataProvider

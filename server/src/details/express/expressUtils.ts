@@ -1,6 +1,6 @@
-import { makeNetworkErrorResult } from "entities/networkEntites";
+import { makeNetworkErrorResult } from "../../entities/networkEntites";
 import { Router, Request, Response } from "express";
-import { ServerLogger } from "logger/logger";
+import { ServerLogger } from "../../logger/logger";
 
 
 interface iCreateRouteParams {

@@ -1,5 +1,5 @@
-import { appConfig } from 'config/appConfig';
-import { iDataProvider } from 'logic/interfaces/dataProvider';
+import { appConfig } from '../../../config/appConfig';
+import { iDataProvider } from '../../../logic/interfaces/dataProvider';
 import { MongoClient } from 'mongodb';
 import { createTaskDataProvider } from './contactFormMongo';
 
